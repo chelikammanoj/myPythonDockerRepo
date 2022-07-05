@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mypythondockerrepo
-        image: myacrregistry01.azurecr.io/chelikammanoj/mypythondockerrepo:1
+        image: myacrregistry01.azurecr.io/chelikammanoj/mypythondockerrepo
         ports:
         - containerPort: 5000
 # service type loadbalancer       
